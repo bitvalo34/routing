@@ -1,0 +1,32 @@
+/* Para el listado de productos */
+.img-container-list {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Para la vista de detalle */
+.img-container-detail {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.img-container-detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
